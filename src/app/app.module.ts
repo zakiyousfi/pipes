@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExponentielPipe } from './exponentiel.pipe';
+import { AuthorPipe } from './author.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExponentielPipe,
+    AuthorPipe
   ],
   imports: [
     BrowserModule,
